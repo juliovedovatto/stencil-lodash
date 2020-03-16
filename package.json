@@ -1,0 +1,23 @@
+{
+  "name": "stencil-lodash",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "start-next": "stencil build --dev --watch --serve --next",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.9.2",
+    "@stencil/router": "^1.0.1",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
